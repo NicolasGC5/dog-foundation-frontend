@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Dog Foundation - Frontend
 
-## Getting Started
+Este es el frontend de una aplicación full stack desarrollada para una fundación de perritos. La interfaz está construida con **React** y **Next.js**, e incluye funcionalidades tanto para usuarios comunes como para administradores.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🖥️ Funcionalidades del frontend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👥 Usuario común
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🏠 Landing page informativa con mapa de Google Maps
+- 📬 Suscripción a newsletter
+- 🐶 Visualización de perritos disponibles
+- 💳 Donación a perritos usando Stripe
+- 🧾 Página de perfil editable (foto, nombre, correo, etc.)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠️ Administrador
 
-## Learn More
+- 📊 Dashboard con métricas: cantidad de usuarios, perritos, productos
+- ➕ Creación de nuevos perritos
+- 🛍️ Asignación de productos específicos a cada perrito (para ser donados)
+- 🚫 Ban de usuarios
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Tecnologías usadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **React**
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **Axios**
+- **Stripe (Checkout)**
+- **Cloudinary (para imágenes)**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧪 Cómo correr el proyecto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Cloná el repositorio:
+
+``bash
+git clone https://github.com/NicolasGC5/dog-foundation-frontend.git
+cd dog-foundation-frontend
+
+2.Instalá las dependencias:
+
+npm install
+
+3. Configurá tus variables de entorno (.env.local)
+Usá el archivo .env.example como guía.
+
+Para el deploy este proyecto puede desplegarse fácilmente en Vercel u otra plataforma compatible con Next.js.
+
